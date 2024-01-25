@@ -1,0 +1,211 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  /*ver*/
+  display: flex;
+  flex-direction: column;
+}
+/*HEADER*/
+.header {
+  background-color: #1e7d53;
+  height: 70px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  padding: 5px 0;
+  width: 65px;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  color: aliceblue;
+}
+/*CONTAINERS*/
+.container {
+  background-color: gainsboro;
+  padding: 0;
+}
+/*first container*/
+.main {
+  background-color: #1e7d53;
+  width: auto;
+  height: 25%;
+  padding: 0 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.first {
+  /* background-color: rgb(221, 165, 165); */
+  margin: 0 10px;
+  padding: 20px;
+  width: 50%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: rgb(216, 218, 220);
+  width: 560px;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+}
+.subtext {
+  color: white;
+  width: 450px;
+  margin: 1px 0;
+  padding: 1px 5px;
+}
+.plate {
+  width: 45%;
+  padding: 35px 10px;
+}
+/*Second container*/
+.second {
+  background-color: rgb(216, 218, 220);
+  height: 450px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 37px;
+  padding: 0;
+  /* margin-top: -100px; */
+}
+.cards {
+  /* background-color: rgb(176, 176, 230); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 60px;
+}
+.cards img {
+  vertical-align: top;
+  border: 2px solid #1e7d53;
+  border-radius: 20px;
+}
+/* .card {
+  background-color: aliceblue;
+  width: 300px;
+  height: 300px;
+  margin: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+} */
+.card {
+  text-align: center;
+}
+.imgcard {
+  width: 250px;
+  height: 250px;
+}
+.third {
+  background-color: #1e7d53;
+  height: 450px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thor {
+  font-size: 30px;
+  width: 62%;
+}
+.law {
+  font-size: 25px;
+  font-weight: 800;
+}
+/*four section*/
+.four {
+  background-color: rgb(216, 218, 220);
+  height: 450px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calltoaction {
+  background-color: #1e7d53;
+  width: 70%;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.actioncall {
+  /* background-color: rgb(196, 224, 249); */
+  width: 480px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h5 {
+  font-size: 25px;
+  color: aliceblue;
+  margin: 0;
+}
+.pcontact {
+  color: aliceblue;
+  margin: 5px 0;
+}
+.contacto {
+  width: 120px;
+  height: 35px;
+  padding: 0;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #1e7d53;
+}
+.footer {
+  background-color: rgb(13, 14, 13);
+  display: flex;
+  justify-content: center;
+}
+.Copyright {
+  color: aliceblue;
+}
+
+/*Generic*/
+p {
+  font-size: 20px;
+}
+
+button {
+  width: 85px;
+  margin-top: 15px;
+  padding: 10px 8px;
+  color: aliceblue;
+  background-color: indianred;
+  border: 0;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 700;
+}
